@@ -15,6 +15,7 @@
 		1836E7BA23045BD400271E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836E7B823045BD400271E3A /* LaunchScreen.storyboard */; };
 		1836E7C523045BD400271E3A /* Fin_AddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E7C423045BD400271E3A /* Fin_AddictTests.swift */; };
 		1836E7D023045BD400271E3A /* Fin_AddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E7CF23045BD400271E3A /* Fin_AddictUITests.swift */; };
+		1836E7E223048C1C00271E3A /* SIMPLIFICA in Resources */ = {isa = PBXBuildFile; fileRef = 1836E7E123048C1C00271E3A /* SIMPLIFICA */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1836E7CB23045BD400271E3A /* Fin-AddictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fin-AddictUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836E7CF23045BD400271E3A /* Fin_AddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fin_AddictUITests.swift; sourceTree = "<group>"; };
 		1836E7D123045BD400271E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836E7E123048C1C00271E3A /* SIMPLIFICA */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SIMPLIFICA; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1836E7C323045BD400271E3A /* Fin-AddictTests */,
 				1836E7CE23045BD400271E3A /* Fin-AddictUITests */,
 				1836E7AA23045BD200271E3A /* Products */,
+				1836E7E123048C1C00271E3A /* SIMPLIFICA */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +238,7 @@
 				1836E7BA23045BD400271E3A /* LaunchScreen.storyboard in Resources */,
 				1836E7B723045BD400271E3A /* Assets.xcassets in Resources */,
 				1836E7B223045BD200271E3A /* Main.storyboard in Resources */,
+				1836E7E223048C1C00271E3A /* SIMPLIFICA in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHTX4P25R5;
 				INFOPLIST_FILE = "Fin-Addict/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHTX4P25R5;
 				INFOPLIST_FILE = "Fin-Addict/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
