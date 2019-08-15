@@ -9,11 +9,26 @@
 import Foundation
 import UIKit
 
+struct Vocab{
+    var id: Int
+    var title: String
+}
+
 class TableViewController: UITableViewController {
+    var allTerms = [
+        Vocab(id: 1,
+              title: "Budget"),
+        Vocab(id: 2,
+              title: "Credit/Credit Card"),
+        Vocab(id: 3,
+              title: "Debt")
+    ]
     
-    var terms = [String]()
 
     
+    
+    /*
+    var terms = [String]()
     override func viewDidLoad() {
         terms = ["Annual Percentage Rate (APR)",
                  "Asset",
@@ -35,8 +50,23 @@ class TableViewController: UITableViewController {
                  "Taxes",
                  "401(k) or 503(b)",
                  "529",]
+ */
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier:
+            "reuseIdentifier", for: indexPath)
+        
+        cell.textLabel?.text = allTerms[indexPath.row].title
+        
+        return cell
+    }
+}
+
+
+
+/*
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return terms.count
     }
@@ -53,5 +83,8 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
     
+*/
 
-}
+
+
+

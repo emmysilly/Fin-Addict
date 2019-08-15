@@ -204,6 +204,34 @@
             </objects>
             <point key="canvasLocation" x="2033" y="791"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="SDD-YL-N1n">
+            <objects>
+                <tableViewController id="S76-VU-8Wf" customClass="TableViewController" customModule="Fin_Addict" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DID-sI-wt8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="uo7-eL-zdE">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uo7-eL-zdE" id="Nkz-Up-FdM">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="S76-VU-8Wf" id="IFD-Tr-oEs"/>
+                            <outlet property="delegate" destination="S76-VU-8Wf" id="grI-M0-Qqx"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2rH-7o-m9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3076" y="-142"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="zBw-9c-V7Y">
             <objects>
@@ -279,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-iD-OOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3036" y="531"/>
+            <point key="canvasLocation" x="3076" y="529"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yKP-1d-VDF">
@@ -298,11 +326,7 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Budget" id="e4S-nM-kvT">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="5Fz-oB-jFF">
-                                            <connections>
-                                                <segue destination="SNh-dB-PYY" kind="show" id="Yig-VR-4Ci"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="5Fz-oB-jFF"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -454,7 +478,6 @@
         <image name="Image" width="1174" height="1336"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="df0-ak-SmT"/>
         <segue reference="mQV-uo-tv5"/>
     </inferredMetricsTieBreakers>
 </document>

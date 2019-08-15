@@ -1,175 +1,187 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "Vocab"
 - "TableViewController"
 provides-nominal:
-- "10Fin_Addict5VocabV"
 - "10Fin_Addict19TableViewControllerC"
 provides-member:
-- ["10Fin_Addict5VocabV", ""]
 - ["10Fin_Addict19TableViewControllerC", ""]
 provides-dynamic-lookup:
-- "numberOfSections"
 - "tableView"
+- "viewDidLoad"
 depends-top-level:
 - "AssignmentPrecedence"
-- "FloatLiteralType"
 - "IndexPath"
 - "Int"
-- "IntegerLiteralType"
 - "String"
-- "StringLiteralType"
+- !private "StringLiteralType"
 - "TableViewController"
 - "UITableView"
 - "UITableViewCell"
 - "UITableViewController"
-- "Vocab"
 depends-member:
+- !private ["Sa", "count"]
+- ["Sa", "init"]
 - !private ["Sa", "subscript"]
-- !private ["s10ArraySliceV", "title"]
+- !private ["SK", "count"]
+- ["SK", "init"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
-- !private ["SK", "title"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "textLabel"]
-- ["s7CVarArgP", "Vocab"]
+- ["s7CVarArgP", "String"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "allTerms"]
+- !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
-- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "terms"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "textLabel"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
-- !private ["Sl", "title"]
 - !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
-- !private ["10Foundation15ContiguousBytesP", "title"]
-- ["s28CustomDebugStringConvertibleP", "Vocab"]
+- ["s28CustomDebugStringConvertibleP", "String"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "allTerms"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "row"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "terms"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "textLabel"]
-- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "row"]
 - !private ["s17CustomReflectableP", "subscript"]
-- !private ["s17CustomReflectableP", "title"]
-- ["s23CustomStringConvertibleP", "Vocab"]
+- ["s23CustomStringConvertibleP", "String"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "allTerms"]
+- !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "row"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "terms"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "textLabel"]
-- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
-- !private ["10Foundation12DataProtocolP", "title"]
+- !private ["Se", "count"]
+- ["Se", "init"]
 - !private ["Se", "row"]
 - !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- ["SE", "init"]
 - !private ["SE", "row"]
 - !private ["SE", "subscript"]
-- ["SQ", "Vocab"]
+- ["SQ", "String"]
 - ["SQ", ""]
-- !private ["SQ", "allTerms"]
+- !private ["SQ", "count"]
 - !private ["SQ", "dequeueReusableCell"]
-- !private ["SQ", "init"]
+- ["SQ", "init"]
 - !private ["SQ", "row"]
 - !private ["SQ", "subscript"]
+- !private ["SQ", "terms"]
 - !private ["SQ", "text"]
 - !private ["SQ", "textLabel"]
-- !private ["SQ", "title"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- !private ["s25ExpressibleByArrayLiteralP", "title"]
-- ["SH", "Vocab"]
+- ["SH", "String"]
 - ["SH", ""]
-- !private ["SH", "allTerms"]
+- !private ["SH", "count"]
 - !private ["SH", "dequeueReusableCell"]
-- !private ["SH", "init"]
+- ["SH", "init"]
 - !private ["SH", "row"]
 - !private ["SH", "subscript"]
+- !private ["SH", "terms"]
 - !private ["SH", "text"]
 - !private ["SH", "textLabel"]
-- !private ["SH", "title"]
 - !private ["10Foundation9IndexPathV", "row"]
+- !private ["SM", "count"]
+- ["SM", "init"]
 - !private ["SM", "row"]
 - !private ["SM", "subscript"]
-- !private ["SM", "title"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
-- ["So8NSCodingP", "Vocab"]
+- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "allTerms"]
 - !private ["So8NSCodingP", "dequeueReusableCell"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "terms"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "textLabel"]
-- ["So26NSExtensionRequestHandlingP", "Vocab"]
+- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "allTerms"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "terms"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UITableView"]
 - ["So8NSObjectC", "UITableViewCell"]
-- ["So8NSObjectC", "Vocab"]
-- ["So8NSObjectC", "allTerms"]
 - !private ["So8NSObjectC", "dequeueReusableCell"]
 - ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "numberOfSections"]
 - ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "terms"]
 - !private ["So8NSObjectC", "text"]
 - !private ["So8NSObjectC", "textLabel"]
-- ["So8NSObjectP", "Vocab"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "allTerms"]
 - !private ["So8NSObjectP", "dequeueReusableCell"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "terms"]
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "textLabel"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
 - !private ["Sk", "row"]
 - !private ["Sk", "subscript"]
-- !private ["Sk", "title"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
 - !private ["Sm", "subscript"]
-- !private ["Sm", "title"]
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["ST", "count"]
+- ["ST", "init"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
-- !private ["ST", "title"]
 - ["10Fin_Addict19TableViewControllerC", "IndexPath"]
 - ["10Fin_Addict19TableViewControllerC", "Int"]
+- ["10Fin_Addict19TableViewControllerC", "String"]
 - ["10Fin_Addict19TableViewControllerC", "UITableView"]
 - ["10Fin_Addict19TableViewControllerC", "UITableViewCell"]
-- ["10Fin_Addict19TableViewControllerC", "Vocab"]
-- ["10Fin_Addict19TableViewControllerC", "allTerms"]
 - ["10Fin_Addict19TableViewControllerC", "deinit"]
 - ["10Fin_Addict19TableViewControllerC", "init"]
-- ["10Fin_Addict19TableViewControllerC", "numberOfSections"]
 - ["10Fin_Addict19TableViewControllerC", "tableView"]
+- ["10Fin_Addict19TableViewControllerC", "terms"]
+- ["10Fin_Addict19TableViewControllerC", "viewDidLoad"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textLabel"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "textLabel"]
-- ["So21UIAppearanceContainerP", "Vocab"]
+- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So21UIAppearanceContainerP", "allTerms"]
 - !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "terms"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "textLabel"]
-- ["So18UIContentContainerP", "Vocab"]
+- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", ""]
-- !private ["So18UIContentContainerP", "allTerms"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "terms"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
 - !private ["So17UICoordinateSpaceP", "text"]
@@ -178,11 +190,11 @@ depends-member:
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "textLabel"]
-- ["So18UIFocusEnvironmentP", "Vocab"]
+- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So18UIFocusEnvironmentP", "allTerms"]
 - !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "terms"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "textLabel"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
@@ -194,74 +206,74 @@ depends-member:
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
 - !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
 - !private ["So7UILabelC", "text"]
-- ["So30UIPasteConfigurationSupportingP", "Vocab"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "allTerms"]
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "terms"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UITableView"]
 - ["So11UIResponderC", "UITableViewCell"]
-- ["So11UIResponderC", "Vocab"]
-- ["So11UIResponderC", "allTerms"]
 - !private ["So11UIResponderC", "dequeueReusableCell"]
 - ["So11UIResponderC", "init"]
-- ["So11UIResponderC", "numberOfSections"]
 - ["So11UIResponderC", "tableView"]
+- ["So11UIResponderC", "terms"]
 - !private ["So11UIResponderC", "text"]
 - !private ["So11UIResponderC", "textLabel"]
-- ["So30UIResponderStandardEditActionsP", "Vocab"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So30UIResponderStandardEditActionsP", "allTerms"]
 - !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "terms"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "textLabel"]
 - !private ["So12UIScrollViewC", "dequeueReusableCell"]
-- ["So20UIScrollViewDelegateP", "Vocab"]
+- ["So20UIScrollViewDelegateP", "String"]
 - ["So20UIScrollViewDelegateP", ""]
-- !private ["So20UIScrollViewDelegateP", "allTerms"]
 - !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "terms"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
-- ["So16UIStateRestoringP", "Vocab"]
+- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So16UIStateRestoringP", "allTerms"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "terms"]
 - !private ["So11UITableViewC", "dequeueReusableCell"]
 - !private ["So15UITableViewCellC", "textLabel"]
 - ["So21UITableViewControllerC", "IndexPath"]
 - ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "String"]
 - ["So21UITableViewControllerC", "UITableView"]
 - ["So21UITableViewControllerC", "UITableViewCell"]
-- ["So21UITableViewControllerC", "Vocab"]
 - ["So21UITableViewControllerC", ""]
-- ["So21UITableViewControllerC", "allTerms"]
 - ["So21UITableViewControllerC", "init"]
-- ["So21UITableViewControllerC", "numberOfSections"]
 - ["So21UITableViewControllerC", "tableView"]
-- ["So21UITableViewDataSourceP", "Vocab"]
+- ["So21UITableViewControllerC", "terms"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", "String"]
 - ["So21UITableViewDataSourceP", ""]
-- !private ["So21UITableViewDataSourceP", "allTerms"]
 - !private ["So21UITableViewDataSourceP", "init"]
-- ["So19UITableViewDelegateP", "Vocab"]
+- !private ["So21UITableViewDataSourceP", "terms"]
+- ["So19UITableViewDelegateP", "String"]
 - ["So19UITableViewDelegateP", ""]
-- !private ["So19UITableViewDelegateP", "allTerms"]
 - !private ["So19UITableViewDelegateP", "init"]
-- ["So18UITraitEnvironmentP", "Vocab"]
+- !private ["So19UITableViewDelegateP", "terms"]
+- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", ""]
-- !private ["So18UITraitEnvironmentP", "allTerms"]
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "terms"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "textLabel"]
-- ["So23UIUserActivityRestoringP", "Vocab"]
+- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", ""]
-- !private ["So23UIUserActivityRestoringP", "allTerms"]
 - !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "terms"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "textLabel"]
 - !private ["So6UIViewC", "dequeueReusableCell"]
@@ -269,65 +281,67 @@ depends-member:
 - !private ["So6UIViewC", "textLabel"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UITableView"]
 - ["So16UIViewControllerC", "UITableViewCell"]
-- ["So16UIViewControllerC", "Vocab"]
-- ["So16UIViewControllerC", "allTerms"]
 - ["So16UIViewControllerC", "init"]
-- ["So16UIViewControllerC", "numberOfSections"]
 - ["So16UIViewControllerC", "tableView"]
-- ["10Fin_Addict5VocabV", "Int"]
-- ["10Fin_Addict5VocabV", "String"]
-- ["10Fin_Addict5VocabV", "id"]
-- ["10Fin_Addict5VocabV", "init"]
-- ["10Fin_Addict5VocabV", "title"]
+- ["So16UIViewControllerC", "terms"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s14_ArrayProtocolP", "title"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
-- !private ["s24_DestructorSafeContainerP", "title"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "Vocab"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "allTerms"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "terms"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textLabel"]
 depends-nominal:
-- !private "Sa"
-- !private "s10ArraySliceV"
-- !private "SK"
+- "Sa"
+- "SK"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
-- !private "Sl"
+- "Sl"
 - !private "SL"
-- !private "10Foundation15ContiguousBytesP"
+- "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
-- !private "s17CustomReflectableP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "10Foundation12DataProtocolP"
-- !private "Se"
-- !private "SE"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
 - "SQ"
-- !private "s25ExpressibleByArrayLiteralP"
+- "s25ExpressibleByArrayLiteralP"
 - "SH"
 - !private "10Foundation9IndexPathV"
-- !private "SM"
-- !private "10Foundation19MutableDataProtocolP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- !private "Sk"
-- !private "Sm"
+- "Sk"
+- "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
-- !private "ST"
+- "ST"
 - "10Fin_Addict19TableViewControllerC"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
@@ -359,13 +373,12 @@ depends-nominal:
 - "So23UIUserActivityRestoringP"
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
-- "10Fin_Addict5VocabV"
-- !private "s14_ArrayProtocolP"
-- !private "s24_DestructorSafeContainerP"
-- !private "s19_HasContiguousBytesP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s21_ObjectiveCBridgeableP"
+- "s21_ObjectiveCBridgeableP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
@@ -395,4 +408,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ede5717c6b9463c5b9556e70a8ab93d8"
+interface-hash: "fff682b7cee2043a0322afd019b7a0c1"
