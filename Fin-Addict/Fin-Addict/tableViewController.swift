@@ -9,28 +9,49 @@
 import Foundation
 import UIKit
 
-class tableViewController: UITableViewController {
+class TableViewController: UITableViewController {
     
     var terms = [String]()
-    
-    
+
     
     override func viewDidLoad() {
         terms = ["Annual Percentage Rate (APR)",
                  "Asset",
                  "Billing Period",
-                 "Budget"]
+                 "Budget",
+                 "Credit/Credit Card",
+                 "Credit Score",
+                 "Debit Card",
+                 "Debt",
+                 "Deposits",
+                 "Interest",
+                 "Investment",
+                 "Liquidity",
+                 "Loan",
+                 "Overdraft",
+                 "Savings",
+                 "Stock",
+                 "Stock Market",
+                 "Taxes",
+                 "401(k) or 503(b)",
+                 "529",]
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return terms.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+        
+        cell?.textLabel!.text = terms[indexPath.row]
+        
+        return cell!
     }
+
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
     }
+    
+
 }

@@ -179,7 +179,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XIu-XE-ygb" kind="show" id="H4m-im-DzU"/>
+                                    <segue destination="SNh-dB-PYY" kind="show" id="df0-ak-SmT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPQ-jP-eCW">
@@ -205,14 +205,14 @@
             <point key="canvasLocation" x="2033" y="791"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="b0r-15-Z3q">
+        <scene sceneID="zBw-9c-V7Y">
             <objects>
-                <viewController id="XIu-XE-ygb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vhH-xr-ZV4">
+                <viewController id="SNh-dB-PYY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zs1-Y3-nOV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fws-gQ-zNf">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhD-kF-ShK">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -220,48 +220,108 @@
                                     <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Terms" id="bLS-QN-ACP">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="ecb-v8-UTg">
+                                    <navigationItem title="Terms" id="xly-w2-tUE">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="cbA-Qm-StQ">
                                             <connections>
-                                                <segue destination="hfm-JW-2ju" kind="show" id="IdD-Sw-0tg"/>
+                                                <segue destination="8Lw-cF-tSl" kind="show" id="mQV-uo-tv5"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="5WU-PZ-lKp">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="XIu-XE-ygb" id="GcZ-C4-grt"/>
-                                </connections>
-                            </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yqh-lq-uWg">
-                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Budget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9i3-Ia-L3H">
+                                <rect key="frame" x="16" y="86" width="199" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHM-ix-bfk">
+                                <rect key="frame" x="16" y="143" width="274" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Credit/Credit Card
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Savings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZo-K0-BDk">
+                                <rect key="frame" x="16" y="200" width="199" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Debt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqe-ea-00Q">
+                                <rect key="frame" x="16" y="257" width="199" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmZ-eA-d9t">
+                                <rect key="frame" x="16" y="314" width="274" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Credit/Credit Card
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="dPc-7Q-rix"/>
+                        <viewLayoutGuide key="safeArea" id="1ve-Qp-O07"/>
                     </view>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="ZQT-cc-eyS" id="Azo-w8-CDA"/>
-                    </connections>
+                    <toolbarItems>
+                        <barButtonItem title="Back" id="RBj-VO-ceT"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="On0-a3-Sa4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="ZQT-cc-eyS">
-                    <connections>
-                        <outlet property="delegate" destination="XIu-XE-ygb" id="iFI-sF-rmd"/>
-                        <outlet property="searchBar" destination="5WU-PZ-lKp" id="baG-cD-NqU"/>
-                        <outlet property="searchContentsController" destination="XIu-XE-ygb" id="sgg-Re-ALj"/>
-                        <outlet property="searchResultsDataSource" destination="XIu-XE-ygb" id="EaT-bW-JBZ"/>
-                        <outlet property="searchResultsDelegate" destination="XIu-XE-ygb" id="FLc-Bg-LEH"/>
-                    </connections>
-                </searchDisplayController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-iD-OOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3165.5999999999999" y="600.44977511244383"/>
+            <point key="canvasLocation" x="3036" y="531"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yKP-1d-VDF">
+            <objects>
+                <viewController id="f7d-tz-A9M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eFy-FG-E3n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djd-MP-xaP">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Budget" id="e4S-nM-kvT">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="5Fz-oB-jFF">
+                                            <connections>
+                                                <segue destination="SNh-dB-PYY" kind="show" id="Yig-VR-4Ci"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AVe-gq-Gq4">
+                                <rect key="frame" x="16" y="93" width="343" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">(noun) A way to keep track of your money and where it is going, deciding how much you want to give, save, and spend based off of the amount of money that you have or make </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9sO-hh-5RS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4k5-5f-wtP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3880.8000000000002" y="529.38530734632684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JeI-2b-gTf">
@@ -284,7 +344,11 @@
                                             <barButtonItem id="V9k-h0-MUu">
                                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </barButtonItem>
-                                            <barButtonItem systemItem="stop" id="tgB-GI-L86"/>
+                                            <barButtonItem title="Back" id="Tq7-dK-a80">
+                                                <connections>
+                                                    <segue destination="8Lw-cF-tSl" kind="show" id="bb0-nt-l5w"/>
+                                                </connections>
+                                            </barButtonItem>
                                         </leftBarButtonItems>
                                     </navigationItem>
                                 </items>
@@ -296,7 +360,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLG-Sr-Etx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3166" y="1415"/>
+            <point key="canvasLocation" x="3166" y="1421"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="SdZ-29-TsJ">
@@ -390,6 +454,7 @@
         <image name="Image" width="1174" height="1336"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IdD-Sw-0tg"/>
+        <segue reference="df0-ak-SmT"/>
+        <segue reference="mQV-uo-tv5"/>
     </inferredMetricsTieBreakers>
 </document>
