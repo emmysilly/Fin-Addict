@@ -16,6 +16,7 @@
 		1836E7C523045BD400271E3A /* Fin_AddictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E7C423045BD400271E3A /* Fin_AddictTests.swift */; };
 		1836E7D023045BD400271E3A /* Fin_AddictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E7CF23045BD400271E3A /* Fin_AddictUITests.swift */; };
 		1836E7E223048C1C00271E3A /* SIMPLIFICA in Resources */ = {isa = PBXBuildFile; fileRef = 1836E7E123048C1C00271E3A /* SIMPLIFICA */; };
+		1836E7E42305B09500271E3A /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E7E32305B09500271E3A /* tableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1836E7CF23045BD400271E3A /* Fin_AddictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fin_AddictUITests.swift; sourceTree = "<group>"; };
 		1836E7D123045BD400271E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1836E7E123048C1C00271E3A /* SIMPLIFICA */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SIMPLIFICA; sourceTree = "<group>"; };
+		1836E7E32305B09500271E3A /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				1836E7AC23045BD200271E3A /* AppDelegate.swift */,
 				1836E7AE23045BD200271E3A /* ViewController.swift */,
 				1836E7B023045BD200271E3A /* Main.storyboard */,
+				1836E7E32305B09500271E3A /* tableViewController.swift */,
 				1836E7B623045BD400271E3A /* Assets.xcassets */,
 				1836E7B823045BD400271E3A /* LaunchScreen.storyboard */,
 				1836E7BB23045BD400271E3A /* Info.plist */,
@@ -266,6 +269,7 @@
 				1836E7AF23045BD200271E3A /* ViewController.swift in Sources */,
 				1836E7AD23045BD200271E3A /* AppDelegate.swift in Sources */,
 				1836E7B523045BD200271E3A /* Fin_Addict.xcdatamodeld in Sources */,
+				1836E7E42305B09500271E3A /* tableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
