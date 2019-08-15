@@ -153,7 +153,7 @@
                                 <rect key="frame" x="25" y="369" width="325" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Video Lesson">
                                     <color key="titleColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -182,7 +182,7 @@
                                 <rect key="frame" x="25" y="202" width="325" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Terms">
                                     <color key="titleColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -199,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ClY-u4-QaP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2032.8" y="793.8530734632684"/>
+            <point key="canvasLocation" x="2033" y="791"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b0r-15-Z3q">
@@ -223,7 +223,11 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Terms" id="bLS-QN-ACP">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="PdN-vZ-V0W"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="ecb-v8-UTg">
+                                            <connections>
+                                                <segue destination="hfm-JW-2ju" kind="show" id="IdD-Sw-0tg"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -294,4 +298,7 @@
     <resources>
         <image name="Image" width="1174" height="1336"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="IdD-Sw-0tg"/>
+    </inferredMetricsTieBreakers>
 </document>
