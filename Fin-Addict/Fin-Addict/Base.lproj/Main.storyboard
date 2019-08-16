@@ -97,7 +97,7 @@
             </objects>
             <point key="canvasLocation" x="26" y="19"/>
         </scene>
-        <!--Item-->
+        <!--Budget-->
         <scene sceneID="9vD-Hr-XNc">
             <objects>
                 <viewController id="nh8-9D-g46" sceneMemberID="viewController">
@@ -155,11 +155,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="In your budget, you have: $65 left, with two weeks remaining" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0WG-BJ-A2p">
+                                <rect key="frame" x="0.0" y="524" width="359" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="SaT-DX-5Y0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Box-YX-mnQ"/>
+                    <tabBarItem key="tabBarItem" title="Budget" id="Box-YX-mnQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8sj-1i-cMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -725,7 +732,7 @@ Some debit cards have something called overdraft protection
             </objects>
             <point key="canvasLocation" x="5616.8000000000002" y="1216.6416791604199"/>
         </scene>
-        <!--Item 1-->
+        <!--Calendar-->
         <scene sceneID="SdZ-29-TsJ">
             <objects>
                 <viewController id="fPi-uD-Bwo" sceneMemberID="viewController">
@@ -770,7 +777,7 @@ Some debit cards have something called overdraft protection
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Gx-L7-g8K"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="L7Y-8Q-GV0"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" id="L7Y-8Q-GV0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KRX-JK-Ca1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -895,6 +902,6 @@ Some debit cards have something called overdraft protection
         <image name="Image" width="1174" height="1336"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IR0-iz-oF5"/>
+        <segue reference="YRJ-dx-VmI"/>
     </inferredMetricsTieBreakers>
 </document>
