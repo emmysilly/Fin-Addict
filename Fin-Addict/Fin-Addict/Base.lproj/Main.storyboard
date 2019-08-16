@@ -120,14 +120,41 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcQ-co-y3B">
-                                <rect key="frame" x="164" y="192" width="46" height="66"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your monthly income after taxes is: $350" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cux-eB-bjs">
+                                <rect key="frame" x="0.0" y="88" width="359" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="S76-VU-8Wf" kind="show" id="d7S-ZA-Rfw"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your weekly spending goal is: $50" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="71l-cF-Uwb">
+                                <rect key="frame" x="0.0" y="175" width="359" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your monthly savings goal is: $55" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7ap-f2-FpY">
+                                <rect key="frame" x="0.0" y="269" width="359" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Do you have loans: Yes" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QLJ-m3-63T">
+                                <rect key="frame" x="0.0" y="360" width="359" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How much do you have in loans, and how long to pay it off: $250,000 and 25 years to pay it off" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hTb-3o-bUl">
+                                <rect key="frame" x="0.0" y="430" width="359" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="SaT-DX-5Y0"/>
@@ -139,45 +166,6 @@
             <point key="canvasLocation" x="2032.8" y="-2.2488755622188905"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="FNB-Qb-etU">
-            <objects>
-                <viewController id="N7B-Nm-Zso" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3wh-kf-uS5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gVY-CB-ySu">
-                                <rect key="frame" x="0.0" y="27" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Calendar" id="ScZ-wn-gar">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="1NU-oK-qPo">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v20-Qw-bFz">
-                                                <rect key="frame" x="16" y="7" width="83" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Back"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="c1i-Hl-JD2">
-                                            <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="HuZ-JV-rT8"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lzk-L5-Xhk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="929" y="763"/>
-        </scene>
-        <!--Item-->
         <scene sceneID="fqY-ac-hef">
             <objects>
                 <viewController id="8Lw-cF-tSl" sceneMemberID="viewController">
@@ -253,11 +241,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="09O-WI-eL8"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="vyf-dD-3oS"/>
+                    <navigationItem key="navigationItem" id="j2A-9y-Pru"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ClY-u4-QaP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2033" y="791"/>
+            <point key="canvasLocation" x="2972" y="790.25487256371821"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="SDD-YL-N1n">
@@ -306,7 +294,7 @@
                                     <navigationItem title="Credit/Credit Card" id="3DL-vw-Sqc">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="EGa-AQ-KPI">
                                             <connections>
-                                                <segue destination="8Lw-cF-tSl" kind="show" id="Z4Y-uG-U1j"/>
+                                                <segue destination="Ya9-ip-0mY" kind="show" id="Z4Y-uG-U1j"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -350,7 +338,7 @@ Buying on credit is often done through a credit card.
                                     <navigationItem title="Terms" id="xly-w2-tUE">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="cbA-Qm-StQ">
                                             <connections>
-                                                <segue destination="8Lw-cF-tSl" kind="show" id="IR0-iz-oF5"/>
+                                                <segue destination="Ya9-ip-0mY" kind="show" id="IR0-iz-oF5"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -456,7 +444,7 @@ Buying on credit is often done through a credit card.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cu9-iD-OOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3076" y="528.48575712143929"/>
+            <point key="canvasLocation" x="4015.1999999999998" y="528.48575712143929"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yKP-1d-VDF">
@@ -477,7 +465,7 @@ Buying on credit is often done through a credit card.
                                     <navigationItem title="Budget" id="e4S-nM-kvT">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="5Fz-oB-jFF">
                                             <connections>
-                                                <segue destination="8Lw-cF-tSl" kind="show" id="eie-Js-ReB"/>
+                                                <segue destination="Ya9-ip-0mY" kind="show" id="eie-Js-ReB"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -498,7 +486,7 @@ Buying on credit is often done through a credit card.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4k5-5f-wtP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3880.8000000000002" y="529.38530734632684"/>
+            <point key="canvasLocation" x="4820" y="529.38530734632684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="O81-qm-TUZ">
@@ -519,7 +507,7 @@ Buying on credit is often done through a credit card.
                                     <navigationItem title="Taxes" id="VJ7-sB-yB5">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="cMA-p3-dzM">
                                             <connections>
-                                                <segue destination="8Lw-cF-tSl" kind="show" id="afE-V0-31w"/>
+                                                <segue destination="Ya9-ip-0mY" kind="show" id="afE-V0-31w"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -543,7 +531,7 @@ Positive actions, such as donating money to a non-profit, can lower your taxable
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9f5-H8-Yah" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4691" y="518"/>
+            <point key="canvasLocation" x="5629.6000000000004" y="517.6911544227886"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VgH-7D-eAf">
@@ -570,10 +558,10 @@ Positive actions, such as donating money to a non-profit, can lower your taxable
                                 <rect key="frame" x="16" y="76" width="343" height="787"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">(noun) Stock is a piece of a company, so when you own stock, you own a very small piece of the company or business. The price of a company can go up or down, so the price of stock can also go up and down. Most people own tens, hundreds, or even thousands of shares. 
+                                <string key="text">(noun) Stock is a piece of a company, so when you own stock, you own a very small piece of the company or business. The price of a company can go up or down, so the price of stock can also go up and down. Most people own tens, hundreds, or even thousands of shares. 
 Example: Imagine you own AAPL (Apple) stock, and paid $5 for it. They release the latest iPhone and sold a lot, which is good for the company. This could make the stock go up in price to $8, which would mean that you have made $3 on your investment. However, imagine that it was found out that the new iPhone doesn’t work, so the stock price fell to $3. This would mean that you would lose $2 on your investment.
 Explanation: You are able to sell your shares whenever you want to and the stock market is open. In terms of the last scenario, you buy a stock for $5. If you sold your stock when the stock price was $8, you would have made $3. However, if you kept your stock in the market because you wanted to see if you could make more money, and it dropped to $3 a share, then you would have lost $2. You have not gained or lost any money for the time that you still own those shares, until the time when you decide to sell them. 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -584,7 +572,7 @@ Explanation: You are able to sell your shares whenever you want to and the stock
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FS1-Dh-oKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5540" y="521.28935532233891"/>
+            <point key="canvasLocation" x="6479.1999999999998" y="521.28935532233891"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JeI-2b-gTf">
@@ -609,13 +597,32 @@ Explanation: You are able to sell your shares whenever you want to and the stock
                                             </barButtonItem>
                                             <barButtonItem title="Back" id="Tq7-dK-a80">
                                                 <connections>
-                                                    <segue destination="8Lw-cF-tSl" kind="show" id="pLd-Gp-fnF"/>
+                                                    <segue destination="Ya9-ip-0mY" kind="show" id="pLd-Gp-fnF"/>
                                                 </connections>
                                             </barButtonItem>
                                         </leftBarButtonItems>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4652 2" translatesAutoresizingMaskIntoConstraints="NO" id="yha-6P-Q8x">
+                                <rect key="frame" x="-52" y="89" width="483" height="567"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Personal Finance 101 " borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V3T-XQ-tfH">
+                                <rect key="frame" x="63" y="460" width="233" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PJC-p7-vlE">
+                                <rect key="frame" x="63" y="498" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">In this video, we will be going over the 5 basic terms of personal finance: debt, debit cards, credit/credit cards, taxes, and overdraft. Enjoy this video!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lnO-yl-VUx"/>
@@ -623,7 +630,7 @@ Explanation: You are able to sell your shares whenever you want to and the stock
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLG-Sr-Etx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3166" y="1421"/>
+            <point key="canvasLocation" x="4104.8000000000002" y="1420.8395802098951"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RcI-gJ-Cxn">
@@ -644,7 +651,7 @@ Explanation: You are able to sell your shares whenever you want to and the stock
                                     <navigationItem title="Debit Card" id="ZpJ-ek-siA">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="XaK-SI-ZWN">
                                             <connections>
-                                                <segue destination="8Lw-cF-tSl" kind="show" id="0gI-5f-wNx"/>
+                                                <segue destination="Ya9-ip-0mY" kind="show" id="0gI-5f-wNx"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -674,7 +681,7 @@ Some debit cards have something called overdraft protection
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ysk-tH-yB3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3884" y="1218.440779610195"/>
+            <point key="canvasLocation" x="4823.1999999999998" y="1218.440779610195"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QPz-t9-Rvj">
@@ -695,7 +702,7 @@ Some debit cards have something called overdraft protection
                                     <navigationItem title="Overdraft" id="tIF-z2-KD1">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="WZ2-YV-MiT">
                                             <connections>
-                                                <segue destination="8Lw-cF-tSl" kind="show" id="Jdh-Wu-3MU"/>
+                                                <segue destination="Ya9-ip-0mY" kind="show" id="Jdh-Wu-3MU"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -716,7 +723,7 @@ Some debit cards have something called overdraft protection
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYz-Cg-Zst" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4677.6000000000004" y="1216.6416791604199"/>
+            <point key="canvasLocation" x="5616.8000000000002" y="1216.6416791604199"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="SdZ-29-TsJ">
@@ -736,6 +743,24 @@ Some debit cards have something called overdraft protection
                                     <navigationItem title="Calendar" id="RWH-7B-WAy"/>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Free-Printable-August-2019-Calendar" translatesAutoresizingMaskIntoConstraints="NO" id="ztP-HZ-ng1">
+                                <rect key="frame" x="0.0" y="7" width="375" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Suggestions to remain in your $45 a week budget:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PEa-MU-P4q">
+                                <rect key="frame" x="16" y="390" width="346" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="-Cut back on your morning iced latte. Maybe subsitute it for an iced coffee instead, or make it at home" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CA9-Uk-WUs">
+                                <rect key="frame" x="16" y="428" width="332" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -765,7 +790,7 @@ Some debit cards have something called overdraft protection
                     <connections>
                         <segue destination="fPi-uD-Bwo" kind="relationship" relationship="viewControllers" id="LZx-cx-v1L"/>
                         <segue destination="nh8-9D-g46" kind="relationship" relationship="viewControllers" id="3aC-i9-JFE"/>
-                        <segue destination="8Lw-cF-tSl" kind="relationship" relationship="viewControllers" id="YRJ-dx-VmI"/>
+                        <segue destination="Ya9-ip-0mY" kind="relationship" relationship="viewControllers" id="YRJ-dx-VmI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o6l-5A-MMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -788,7 +813,7 @@ Some debit cards have something called overdraft protection
                                     <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Overview" id="yqB-yN-Pje">
+                                    <navigationItem title="Edit your budget" id="yqB-yN-Pje">
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9F7-XH-fBZ">
                                             <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </barButtonItem>
@@ -796,10 +821,44 @@ Some debit cards have something called overdraft protection
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SwT-rv-8ZB">
-                                <rect key="frame" x="132" y="250" width="111" height="30"/>
+                                <rect key="frame" x="173" y="250" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="TESTING TABLE"/>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Income for the month (after taxes): $350" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dck-jL-9ZB">
+                                <rect key="frame" x="16" y="90" width="343" height="539"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How much you want to save in a month: $65" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cgk-cF-NvA">
+                                <rect key="frame" x="16" y="189" width="343" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Weekly Budget: $65" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CDw-V2-H3J">
+                                <rect key="frame" x="16" y="295" width="343" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Do you have any loans? Yes" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CbQ-7c-4vf">
+                                <rect key="frame" x="17" y="389" width="343" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="How much in student loans, and over how much time to pay it back: $250,000 and 20 years to pay it back" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XMz-sD-G6G">
+                                <rect key="frame" x="15" y="461" width="344" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="t4G-hR-moq"/>
@@ -808,13 +867,34 @@ Some debit cards have something called overdraft protection
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R9h-xY-Ifo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2033" y="-2"/>
+            <point key="canvasLocation" x="2032.8" y="-2.2488755622188905"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="wHL-Co-7Wt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ya9-ip-0mY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="vyf-dD-3oS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bAc-Ad-swQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8Lw-cF-tSl" kind="relationship" relationship="rootViewController" id="DTj-Qi-v5A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G8B-XL-vwo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032.8" y="790.25487256371821"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Free-Printable-August-2019-Calendar" width="1303" height="942"/>
+        <image name="IMG_4652 2" width="1125" height="2436"/>
         <image name="Image" width="1174" height="1336"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YRJ-dx-VmI"/>
+        <segue reference="IR0-iz-oF5"/>
     </inferredMetricsTieBreakers>
 </document>
