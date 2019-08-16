@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AHTX4P25R5;
+				DEVELOPMENT_TEAM = 32VLATW9G7;
 				INFOPLIST_FILE = "Fin-Addict/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AHTX4P25R5;
+				DEVELOPMENT_TEAM = 32VLATW9G7;
 				INFOPLIST_FILE = "Fin-Addict/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
